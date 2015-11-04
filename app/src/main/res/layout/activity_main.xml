@@ -6,7 +6,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
-    <TextView android:text="Cell data 1 :" android:layout_width="wrap_content"
+    <TextView android:text="Cell data 1 (sid) :" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -17,7 +17,7 @@
         android:id="@+id/textView2" />
 
     <TextView
-        android:text="Cell data 2 :"
+        android:text="Cell data 2 (lac) :"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -27,7 +27,7 @@
         android:layout_alignStart="@+id/textView2" />
 
     <TextView
-        android:text="Cell data 3 :"
+        android:text="Cell data 3 (psc):"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="34dp"
@@ -63,7 +63,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Get Info"
         android:id="@+id/button"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
