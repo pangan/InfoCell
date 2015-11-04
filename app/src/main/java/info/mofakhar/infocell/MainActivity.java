@@ -23,15 +23,19 @@ public class MainActivity extends AppCompatActivity {
 
         int cid = cellLocation.getCid();
         int lac = cellLocation.getLac();
+        int psc = cellLocation.getPsc();
+
 
         String cid_str = String.valueOf(cid);
+        String lac_str = String.valueOf(lac);
+        String psc_str = String.valueOf(psc);
 
         TextView cell_1 = (TextView)findViewById(R.id.textView4);
         cell_1.setText(cid_str);
         TextView cell_2 = (TextView)findViewById(R.id.textView5);
-        cell_2.setText("1");
+        cell_2.setText(lac_str);
         TextView cell_3 = (TextView)findViewById(R.id.textView6);
-        cell_3.setText("1");
+        cell_3.setText(psc_str);
 
     }
 }
